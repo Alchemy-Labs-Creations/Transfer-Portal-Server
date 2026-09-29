@@ -1,7 +1,7 @@
 {
   "name": "transfer-portal-signal",
-  "version": "0.1.0",
-  "description": "Tiny WebRTC signaling server for Transfer Portal — only trades connection handshakes, never file data",
+  "version": "0.2.0",
+  "description": "Tiny WebRTC signaling server for Transfer Portal — connection handshakes, locked mailboxes for PCs that are away, and away notices - never file data",
   "main": "server.js",
   "scripts": { "start": "node server.js" },
   "engines": { "node": ">=18" },
